@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Insights — Viren Kevat</title>
+  <meta name="description" content="Essays, interviews and perspectives on leadership, AI, culture and sustainability from Viren Kevat, CEO of Nexora Technologies.">
+  <meta name="theme-color" content="#f5f0e6">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11.1.4/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.css">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="css/interactive.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body data-page="insights">
+
+  <div data-component="top"></div>
+
+  <main>
+
+    <section class="page-hero">
+      <div class="container">
+        <nav class="crumbs" aria-label="Breadcrumb" data-fade>
+          <span><a href="index.html">Home</a></span><span>Insights</span>
+        </nav>
+        <h1 class="page-hero__title" data-split><em>Insights</em></h1>
+        <div class="page-hero__row">
+          <p class="lead-text" data-fade>Essays and interviews on leadership, artificial intelligence, culture and the responsibilities of building technology at scale.</p>
+          <div class="page-hero__meta" data-fade>
+            <div><span class="eyebrow">Articles</span><strong>Ten essays</strong></div>
+            <div><span class="eyebrow">Topics</span><strong>Five themes</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED -->
+    <section class="section pt-0">
+      <div class="container">
+        <a href="article.html" class="post post--feature" data-fade>
+          <div class="post__img"><img src="assets/images/stage.jpg" alt="Viren Kevat speaking on stage"></div>
+          <div>
+            <div class="post__meta"><span>Featured · Leadership</span><em>12 Mar 2025</em></div>
+            <h3>Why the next decade belongs to the patient builders</h3>
+            <p class="post__excerpt">In an industry obsessed with speed, the companies that endure are the ones willing to think in decades. A case for patience as a competitive advantage.</p>
+            <span class="btn-line link-more"><span>Read the essay · 8 min</span><i class="bi bi-arrow-up-right"></i></span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- ALL ARTICLES -->
+    <section class="section section--paper">
+      <div class="container">
+        <div class="section-head section-head--row">
+          <div>
+            <span class="eyebrow" data-fade>( 01 ) &nbsp; Archive</span>
+            <h2 class="display" data-split>All writing.</h2>
+          </div>
+          <div class="chips" data-fade role="group" aria-label="Filter articles by topic">
+            <button class="chip is-active" data-filter="all" type="button">All</button>
+            <button class="chip" data-filter="leadership" type="button">Leadership</button>
+            <button class="chip" data-filter="ai" type="button">AI</button>
+            <button class="chip" data-filter="culture" type="button">Culture</button>
+            <button class="chip" data-filter="sustainability" type="button">Sustainability</button>
+            <button class="chip" data-filter="strategy" type="button">Strategy</button>
+          </div>
+        </div>
+
+        <div class="hlist" id="articleList">
+          <a href="article.html" class="hrow" data-img="assets/images/team-table.jpg" data-cat="ai" data-fade>
+            <span class="hrow__no">01</span><span class="hrow__thumb"><img src="assets/images/team-table.jpg" alt="" loading="lazy"></span>
+            <span class="hrow__main"><h3 class="hrow__title">Responsible AI is a leadership choice, not a technical one</h3><span class="hrow__desc">Every model has an owner. Why accountability belongs in the boardroom.</span></span>
+            <span class="hrow__meta">Artificial Intelligence</span>
+            <span class="hrow__date">28 Jan 2025</span>
+            <i class="bi bi-arrow-up-right"></i>
+          </a>
+          <a href="article.html" class="hrow" data-img="assets/images/open-office.jpg" data-cat="culture" data-fade>
+            <span class="hrow__no">02</span><span class="hrow__thumb"><img src="assets/images/open-office.jpg" alt="" loading="lazy"></span>
+            <span class="hrow__main"><h3 class="hrow__title">Building a 62,000-person company that still feels like a garage</h3><span class="hrow__desc">Scale tends to kill intimacy. Here is how we resist it.</span></span>
+            <span class="hrow__meta">Culture</span>
+            <span class="hrow__date">04 Nov 2024</span>
+            <i class="bi bi-arrow-up-right"></i>
+          </a>
+          <a href="article.html" class="hrow" data-img="assets/images/forest.jpg" data-cat="sustainability" data-fade>
+            <span class="hrow__no">03</span><span class="hrow__thumb"><img src="assets/images/forest.jpg" alt="" loading="lazy"></span>
+            <span class="hrow__main"><h3 class="hrow__title">What a data centre can learn from a forest</h3><span class="hrow__desc">Cooling, circularity and the surprising lessons of natural systems.</span></span>
+            <span class="hrow__meta">Sustainability</span>
+            <span class="hrow__date">17 Sep 2024</span>
+            <i class="bi bi-arrow-up-right"></i>
+          </a>
+          <a href="article.html" class="hrow" data-img="assets/images/meeting.jpg" data-cat="strategy" data-fade>
+            <span class="hrow__no">04</span><span class="hrow__thumb"><img src="assets/images/meeting.jpg" alt="" loading="lazy"></span>
+            <span class="hrow__main"><h3 class="hrow__title">The case for saying no to good ideas</h3><span class="hrow__desc">Focus is not a constraint on growth. It is the source of it.</span></span>
+            <span class="hrow__meta">Strategy</span>
+            <span class="hrow__date">02 Jul 2024</span>
+            <i class="bi bi-arrow-up-right"></i>
+          </a>
+          <a href="article.html" class="hrow" data-img="assets/images/boardroom.jpg" data-cat="leadership" data-fade>
+            <span class="hrow__no">05</span><span class="hrow__thumb"><img src="assets/images/boardroom.jpg" alt="" loading="lazy"></span>
+            <span class="hrow__main"><h3 class="hrow__title">Ten lessons from twenty years of board meetings</h3><span class="hrow__desc">What I wish somebody had told me before my first one.</span></span>
+            <span class="hrow__meta">Leadership</span>
+            <span class="hrow__date">11 Apr 2024</span>
+            <i class="bi bi-arrow-up-right"></i>
+          </a>
+          <a href="article.html" class="hrow" data-img="assets/images/robot.jpg" data-cat="ai" data-fade>
+            <span class="hrow__no">06</span><span class="hrow__thumb"><img src="assets/images/robot.jpg" alt="" loading="lazy"></span>
+            <span class="hrow__main"><h3 class="hrow__title">Beyond the demo: shipping AI that regulators trust</h3><span class="hrow__desc">The gap between a convincing prototype and a dependable product.</span></span>
+            <span class="hrow__meta">Artificial Intelligence</span>
+            <span class="hrow__date">19 Feb 2024</span>
+            <i class="bi bi-arrow-up-right"></i>
+          </a>
+          <a href="article.html" class="hrow" data-img="assets/images/whiteboard.jpg" data-cat="culture" data-fade>
+            <span class="hrow__no">07</span><span class="hrow__thumb"><img src="assets/images/whiteboard.jpg" alt="" loading="lazy"></span>
+            <span class="hrow__main"><h3 class="hrow__title">Whiteboard Mondays and the discipline of listening</h3><span class="hrow__desc">A simple weekly ritual that changed how decisions get made.</span></span>
+            <span class="hrow__meta">Culture</span>
+            <span class="hrow__date">08 Dec 2023</span>
+            <i class="bi bi-arrow-up-right"></i>
+          </a>
+          <a href="article.html" class="hrow" data-img="assets/images/wind.jpg" data-cat="sustainability" data-fade>
+            <span class="hrow__no">08</span><span class="hrow__thumb"><img src="assets/images/wind.jpg" alt="" loading="lazy"></span>
+            <span class="hrow__main"><h3 class="hrow__title">Net zero by 2035: our honest progress report</h3><span class="hrow__desc">What is working, what is not, and what we are changing.</span></span>
+            <span class="hrow__meta">Sustainability</span>
+            <span class="hrow__date">22 Sep 2023</span>
+            <i class="bi bi-arrow-up-right"></i>
+          </a>
+          <a href="article.html" class="hrow" data-img="assets/images/team-laptops.jpg" data-cat="leadership" data-fade>
+            <span class="hrow__no">09</span><span class="hrow__thumb"><img src="assets/images/team-laptops.jpg" alt="" loading="lazy"></span>
+            <span class="hrow__main"><h3 class="hrow__title">Lessons from the garage: our first ten hires</h3><span class="hrow__desc">Hiring when you have no brand, no budget and no office.</span></span>
+            <span class="hrow__meta">Leadership</span>
+            <span class="hrow__date">30 May 2023</span>
+            <i class="bi bi-arrow-up-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRESS -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow" data-fade>( 02 ) &nbsp; In the press</span>
+          <h2 class="display" data-split>Featured in.</h2>
+        </div>
+        <ul class="talks" data-stagger>
+          <li class="talk"><span class="talk__date">Feb 2025</span><h3>“The quiet CEO rewiring enterprise IT”</h3><span class="talk__place">The Tech Ledger · Profile</span><i class="bi bi-arrow-up-right"></i></li>
+          <li class="talk"><span class="talk__date">Nov 2024</span><h3>“Inside Nexora’s billion-dollar bet on responsible AI”</h3><span class="talk__place">Global Business Review · Cover story</span><i class="bi bi-arrow-up-right"></i></li>
+          <li class="talk"><span class="talk__date">Jun 2024</span><h3>“How to run a global company without losing its soul”</h3><span class="talk__place">Enterprise Weekly · Interview</span><i class="bi bi-arrow-up-right"></i></li>
+          <li class="talk"><span class="talk__date">Jan 2024</span><h3>“The founders shaping the next decade of cloud”</h3><span class="talk__place">Innovation Today · Feature</span><i class="bi bi-arrow-up-right"></i></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section class="section section--ink">
+      <div class="container">
+        <div class="row gy-5 align-items-end">
+          <div class="col-lg-6">
+            <span class="eyebrow" data-fade>( 03 ) &nbsp; Newsletter</span>
+            <h2 class="display" data-split>One thoughtful email, <em>once a month.</em></h2>
+          </div>
+          <div class="col-lg-5 offset-lg-1" data-fade>
+            <form class="newsletter" data-form data-success="Thank you — you are on the list. The next letter arrives at the start of the month." novalidate>
+              <div class="field">
+                <input type="email" id="nEmail" name="email" placeholder=" " required>
+                <label for="nEmail">Email address</label>
+              </div>
+              <button type="submit" class="btn-solid btn-solid--light"><span>Subscribe</span><i class="bi bi-arrow-up-right"></i></button>
+              <p class="form-note" role="status"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <div data-component="footer"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11.1.4/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/interactive.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

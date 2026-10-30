@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — Viren Kevat</title>
+  <meta name="description" content="Contact the Office of the CEO at Nexora Technologies for speaking invitations, media enquiries, partnerships and investor relations.">
+  <meta name="theme-color" content="#f5f0e6">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11.1.4/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.css">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="css/interactive.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body data-page="contact">
+
+  <div data-component="top"></div>
+
+  <main>
+
+    <section class="page-hero">
+      <div class="container">
+        <nav class="crumbs" aria-label="Breadcrumb" data-fade>
+          <span><a href="index.html">Home</a></span><span>Contact</span>
+        </nav>
+        <h1 class="page-hero__title" data-split>Let’s <em>talk.</em></h1>
+        <div class="page-hero__row">
+          <p class="lead-text" data-fade>For speaking invitations, press, partnerships and investor questions. The Office of the CEO reads every message and replies within two working days.</p>
+          <div class="page-hero__meta" data-fade>
+            <div><span class="eyebrow">Response time</span><strong>2 working days</strong></div>
+            <div><span class="eyebrow">Time zone</span><strong>Pacific (PT)</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CHANNELS -->
+    <section class="section pt-0">
+      <div class="container">
+        <div class="hlist">
+          <a href="#message" class="hrow hrow--channel" data-img="assets/images/mic.jpg" data-topic="Speaking engagement" data-fade>
+            <i class="bi bi-mic"></i>
+            <span class="hrow__main"><h3 class="hrow__title">Speaking</h3></span>
+            <span class="hrow__meta">Keynotes, fireside chats, university talks and community events.</span>
+            <span class="hrow__date">speaking@nexora.example</span>
+            <i class="bi bi-arrow-down-right"></i>
+          </a>
+          <a href="#message" class="hrow hrow--channel" data-img="assets/images/stage.jpg" data-topic="Media &amp; press" data-fade>
+            <i class="bi bi-newspaper"></i>
+            <span class="hrow__main"><h3 class="hrow__title">Media</h3></span>
+            <span class="hrow__meta">Interview requests, profiles and press enquiries.</span>
+            <span class="hrow__date">press@nexora.example</span>
+            <i class="bi bi-arrow-down-right"></i>
+          </a>
+          <a href="#message" class="hrow hrow--channel" data-img="assets/images/handshake.jpg" data-topic="Partnership" data-fade>
+            <i class="bi bi-diagram-2"></i>
+            <span class="hrow__main"><h3 class="hrow__title">Partnerships</h3></span>
+            <span class="hrow__meta">Strategic alliances, joint ventures and customer introductions.</span>
+            <span class="hrow__date">partners@nexora.example</span>
+            <i class="bi bi-arrow-down-right"></i>
+          </a>
+          <a href="#message" class="hrow hrow--channel" data-img="assets/images/dashboard.jpg" data-topic="Investor relations" data-fade>
+            <i class="bi bi-graph-up"></i>
+            <span class="hrow__main"><h3 class="hrow__title">Investors</h3></span>
+            <span class="hrow__meta">Shareholder questions and investor-relations support.</span>
+            <span class="hrow__date">investors@nexora.example</span>
+            <i class="bi bi-arrow-down-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORM -->
+    <section class="section section--paper" id="message">
+      <div class="container">
+        <div class="row gy-5">
+          <div class="col-lg-5">
+            <span class="eyebrow" data-fade>( 01 ) &nbsp; Write to us</span>
+            <h2 class="display" data-split>Send a message.</h2>
+            <div class="contact__info" data-fade>
+              <div>
+                <span class="eyebrow">Office of the CEO</span>
+                <a href="mailto:office@nexora.example">office@nexora.example</a>
+                <a href="tel:+14155550142">+1 (415) 555 0142</a>
+              </div>
+              <div>
+                <span class="eyebrow">Headquarters</span>
+                <p>Nexora Tower, 400 Market Street<br>San Francisco, CA 94111</p>
+              </div>
+              <div>
+                <span class="eyebrow">Follow</span>
+                <div class="menu__social" style="margin-top:0">
+                  <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                  <a href="#" aria-label="X"><i class="bi bi-twitter-x"></i></a>
+                  <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 offset-lg-1" data-fade>
+            <form class="contact__form" data-form data-success="Thank you — the Office of the CEO will respond within two working days." novalidate>
+              <div class="field">
+                <input type="text" id="cName" name="name" placeholder=" " required>
+                <label for="cName">Your name</label>
+              </div>
+              <div class="field">
+                <input type="email" id="cEmail" name="email" placeholder=" " required>
+                <label for="cEmail">Email address</label>
+              </div>
+              <div class="field">
+                <input type="text" id="cOrg" name="organisation" placeholder=" ">
+                <label for="cOrg">Organisation (optional)</label>
+              </div>
+              <div class="field">
+                <select id="cTopic" name="topic" required>
+                  <option value="" selected disabled hidden></option>
+                  <option>Speaking engagement</option>
+                  <option>Media &amp; press</option>
+                  <option>Partnership</option>
+                  <option>Investor relations</option>
+                  <option>Something else</option>
+                </select>
+                <label for="cTopic">I’m writing about</label>
+              </div>
+              <div class="field">
+                <textarea id="cMsg" name="message" rows="4" placeholder=" " required></textarea>
+                <label for="cMsg">Message</label>
+              </div>
+              <button type="submit" class="btn-solid"><span>Send message</span><i class="bi bi-arrow-up-right"></i></button>
+              <p class="form-note" role="status"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MAP -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head section-head--row">
+          <div>
+            <span class="eyebrow" data-fade>( 02 ) &nbsp; Visit</span>
+            <h2 class="display" data-split>Find us in<br>San Francisco.</h2>
+          </div>
+          <p class="section-head__note" data-fade>Visits to Nexora Tower are by appointment. Please allow two weeks’ notice for guest registration.</p>
+        </div>
+        <div class="map-frame" data-fade>
+          <iframe title="Map of San Francisco's financial district" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=-122.4150%2C37.7850%2C-122.3850%2C37.8000&amp;layer=mapnik"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section--paper">
+      <div class="container">
+        <div class="row gy-5">
+          <div class="col-lg-4">
+            <span class="eyebrow" data-fade>( 03 ) &nbsp; Before you write</span>
+            <h2 class="display" data-split>Good to know.</h2>
+          </div>
+          <div class="col-lg-7 offset-lg-1" data-fade>
+            <div class="accordion" id="faq">
+              <div class="accordion-item">
+                <h3 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#c1" aria-expanded="true">How far ahead should I request a speaking engagement?</button></h3>
+                <div id="c1" class="accordion-collapse collapse show" data-bs-parent="#faq"><div class="accordion-body">Ideally eight to twelve weeks. Please include the date, audience size, format and whether the event is in-person or virtual.</div></div>
+              </div>
+              <div class="accordion-item">
+                <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c2" aria-expanded="false">Do you accept mentoring requests from students?</button></h3>
+                <div id="c2" class="accordion-collapse collapse" data-bs-parent="#faq"><div class="accordion-body">Yes, through the Founders’ Circle and the Nexora Academy mentoring programme. Please describe what you are working on and what you hope to learn.</div></div>
+              </div>
+              <div class="accordion-item">
+                <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c3" aria-expanded="false">I am a customer with a technical problem. Who do I contact?</button></h3>
+                <div id="c3" class="accordion-collapse collapse" data-bs-parent="#faq"><div class="accordion-body">Please use your Nexora support portal or your account director so your request reaches the right team quickly. The Office of the CEO cannot resolve technical incidents directly.</div></div>
+              </div>
+              <div class="accordion-item">
+                <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c4" aria-expanded="false">Where can I find press images and biographies?</button></h3>
+                <div id="c4" class="accordion-collapse collapse" data-bs-parent="#faq"><div class="accordion-body">The media team maintains a press kit with approved photographs, a short and long biography and logo files. Write to press@nexora.example to request access.</div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <div data-component="footer"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11.1.4/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/interactive.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
